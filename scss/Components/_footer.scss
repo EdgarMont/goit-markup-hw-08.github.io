@@ -1,111 +1,142 @@
 .footer {
-    display: flex;
-    background-color: $color5;
-    min-height: 252px;
-  }
-  .containerFooter {
-    max-width: 1200px;
-    margin: auto;
-  }
-  .footerBox{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .address {
-    font-size: 14px;
-    line-height: 1.7;
-    color: #fff;
-    padding-top: 16px;
-  }
-  .contact {
-    font-size: 14px;
-    line-height: 1.7;
-    color: #fff;
-    opacity: 60%;
-  }
-  .socialNets {
-    padding: 1px 93px;
-  }
-  .buttonNets {
-    background-color: #ffffff0c;
-    width: 45px;
-    height: 45px;
-    border-radius: 100%;
-    margin-right: 10px;
-  }
-  .buttonNets:hover {
-    background-color: $color1;
-    transition: 0.5s;
-    cursor: pointer;
-  }
-  .buttonNets:focus {
-    background-color: $color1;
-    transition: 0.5s;
-    cursor: pointer;
-  }
-  .buttonNets:hover .socialNets_iconNets{
-    transition: 0.5s;
-    cursor: pointer;
-    fill: #fff;
-  }
-  .buttonNets:focus .socialNets_iconNets{
-    transition: 0.5s;
-    cursor: pointer;
-    fill: #fff;
-  }
-  .socialNets_icon:hover .socialNets_iconNets{
-    transition: 0.5s;
-    cursor: pointer;
-    fill: #fff;
-  }
-  .socialNets_icon:focus .socialNets_iconNets{
-    transition: 0.5s;
-    cursor: pointer;
-    fill: #fff;
-  }
-  .titleNets {
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    color: #fff;
-  }
-  .socialNets1 {
-    display: flex;
-    padding-top: 16px;
-  }
-  .inputSub{
-    width: 358px;
-    height: 50px;
-    color: #fff;
-    background-color: $color5;
-    border: 1px solid #ffffff3f;
-    border-radius: 4px;
-    margin-right: 8px;
-    padding: 20px;
-  }
-  .buttonSub {
-    background-color: #2196f3;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 700;
-    text-align: center;
-    letter-spacing: 0.06em;
-    margin-top: 10px;
-    width: 200px;
-    height: 50px;
-    border-radius: 5px;
-  }
-  .buttonSub:hover {
-    background-color: #65b7fa;
-    color: #ffffff;
-    transition: 0.5s;
-    cursor: pointer;
-  }
-  .iconSend{
-    margin-top: -10px;
-    margin-left: 15px;
-    width: 24px;
-    height: 24px;
-    fill: $color4;
-  }
+  display: flex;
+  background-color: $color5;
+  min-height: 252px;
+}
+.WebStudio2 {
   
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  
+  //color: $color1;
+  color: transparent;
+  //text-shadow: 0 0 0 #333333;
+  background: linear-gradient(
+    90deg,
+    $color1 42%,
+    transparent 42%, transparent 42%,
+    $color4 40%, $color4 100%,
+    transparent 100%, transparent 100%,);
+  -webkit-background-clip: text;
+  background-clip: calc(0);
+    
+  letter-spacing: 0.03em;
+}
+.WebStudio2:hover,
+.WebStudio2:focus {
+  color: #65b7fa;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.containerFooter {
+  max-width: 1200px;
+  margin: auto;
+}
+.footerBox{
+  display: flex;
+  flex-wrap: wrap;
+}
+.address {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #fff;
+  padding-top: 16px;
+}
+.contact {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #fff;
+  opacity: 60%;
+}
+.socialNets {
+  padding: 1px 93px;
+}
+.buttonNets {
+  background-color: #ffffff0c;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.buttonNets:hover {
+  background-color: $color1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.buttonNets:focus {
+  background-color: $color1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.buttonNets:hover .socialNets_iconNets{
+  transition: 0.5s;
+  cursor: pointer;
+  fill: #fff;
+}
+.buttonNets:focus .socialNets_iconNets{
+  transition: 0.5s;
+  cursor: pointer;
+  fill: #fff;
+}
+.socialNets_icon:hover .socialNets_iconNets{
+  transition: 0.5s;
+  cursor: pointer;
+  fill: #fff;
+}
+.socialNets_icon:focus .socialNets_iconNets{
+  transition: 0.5s;
+  cursor: pointer;
+  fill: #fff;
+}
+.titleNets {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+.socialNets1 {
+  display: flex;
+  padding-top: 16px;
+}
+.inputSub{
+  width: 358px;
+  height: 50px;
+  color: #fff;
+  background-color: $color5;
+  border: 1px solid #ffffff3f;
+  border-radius: 4px;
+  margin-right: 8px;
+  padding: 20px;
+}
+.buttonSub {
+  background-color: #2196f3;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+}
+.buttonSub:hover {
+  background-color: #65b7fa;
+  color: #ffffff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.iconSend{
+  margin-top: -10px;
+  margin-left: 15px;
+  width: 24px;
+  height: 24px;
+  fill: $color4;
+}
+@media (max-width: 605px) {
+  .WebStudio2{
+    @include flex-center;
+  }
+}
