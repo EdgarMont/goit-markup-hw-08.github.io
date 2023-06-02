@@ -622,5 +622,21 @@
     width: 450px;
     background-image: url(../images/team4.jpg);
   }
+  .iconBrand{
+    display: flex;
+    margin: 0px 28px;
+  }
+  
 }
+@media screen and (max-width: 560px){
+  .iconBrand{
 
+    margin: 0px;
+  }
+  .clientblock{
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 15px;
+  }
+}

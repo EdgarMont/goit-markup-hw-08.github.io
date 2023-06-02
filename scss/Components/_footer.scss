@@ -152,12 +152,7 @@
   }
   
 }
-@media (max-width: 767px) {
-  .WebStudio2{
-    @include flex-center;
-    
-  }
-}
+
 @media (max-width: 767px) {
     
   .footerBox{
@@ -165,6 +160,11 @@
     width: 480px;
     @include flex-center;
     flex-wrap: wrap;
+  }
+  
+  .WebStudio2{
+    @include flex-center;
+    
   }
   .address{
     text-align: center;
