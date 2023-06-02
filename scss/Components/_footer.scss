@@ -136,8 +136,73 @@
   height: 24px;
   fill: $color4;
 }
-@media (max-width: 605px) {
+@media screen and (max-width: 1198px) {
+  
+  .footer {
+    display: flex;
+    background-color: $color5;
+    min-height: 463px;
+  }
+  .containerFooter {
+    max-width: 603px;
+    margin: auto;
+  }
+  .socialNets {
+    padding: 1px 1px 120px 200px;
+  }
+  
+}
+@media (max-width: 767px) {
   .WebStudio2{
     @include flex-center;
+    
+  }
+}
+@media (max-width: 767px) {
+    
+  .footerBox{
+    margin-top: 60px;
+    width: 480px;
+    @include flex-center;
+    flex-wrap: wrap;
+  }
+  .address{
+    text-align: center;
+  }
+  .contact{
+    @include flex-center;
+  }
+  .socialNets {
+    margin: 60px 0px 30px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    @include flex-center;
+  }
+  .socialNets_block{
+    display: flex;
+    flex-wrap: wrap;
+    width: 206px;
+  }
+   
+  .socialNets1 {
+    margin: 0;
+    padding: 0px;
+    margin-top: 20px;
+    width: 100%;
+
+    @include flex-center;
+  }
+  .footerSuscriber{
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    
+    @include flex-center;
+  }
+  .titleNets{
+    text-align: center;
+    @include flex-center;
+    width: 100%;
   }
 }

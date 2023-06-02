@@ -538,18 +538,6 @@
   .proyect1:nth-child(3n + 3) {
     margin: 15px;
   }
-  .footer {
-    display: flex;
-    background-color: $color5;
-    min-height: 463px;
-  }
-  .containerFooter {
-    max-width: 603px;
-    margin: auto;
-  }
-  .socialNets {
-    padding: 1px 1px 120px 200px;
-  }
   
 }
 
@@ -595,49 +583,7 @@
     background-image: url(../images/team4.jpg);
   }
 }
-@media (max-width: 605px) {
-    
-  .footerBox{
-    margin-top: 60px;
-    width: 480px;
-    @include flex-center;
-    flex-wrap: wrap;
-  }
-  .address{
-    text-align: center;
-  }
-  .contact{
-    @include flex-center;
-  }
-  .socialNets {
-    margin: 0;
-    padding: 0px 0px 0px 0px;
-    margin-top: 60px;
-  }
-  .socialNets_block{
-    display: block;
-    width: 470px;
-  }
-   
-  .socialNets1 {
-    margin: 0;
-    padding: 0px;
-    margin-top: 60px;
 
-    @include flex-center;
-  }
-  .footerSuscriber{
-    width: 100%;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    margin-bottom: 60px;
-    
-    @include flex-center;
-  }
-  .titleNets{
-    text-align: center;
-  }
-}
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .block{
     width: 450px;
