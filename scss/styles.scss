@@ -528,7 +528,7 @@
   cursor: pointer;
   fill: $color1;
 }
-@media screen and (max-width: 1198px) {
+@media screen and (max-width: 1199px) {
   .proyect1 {
     border: 2px solid #f1f1f1;
     margin: 15px;
@@ -541,7 +541,7 @@
   
 }
 
-@media (max-width: 924px) {
+@media (max-width: 1199px) {
   .dedication {
     display: none;
   }
@@ -582,8 +582,22 @@
     width: 354px;
     background-image: url(../images/team4.jpg);
   }
-}
+  .iconBrand{
 
+    margin: 0px ;
+  }
+  .clientblock{
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 15px 65px;
+  }
+}
+@media (max-width: 899px) {
+  .clientblock{
+    margin: 15px 43px;
+  }
+}
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .block{
     width: 450px;
@@ -623,8 +637,8 @@
     background-image: url(../images/team4.jpg);
   }
   .iconBrand{
-    display: flex;
-    margin: 0px 28px;
+
+    margin: 0px ;
   }
   
 }
