@@ -593,6 +593,24 @@
     margin: 15px 65px;
   }
 }
+@media screen and (min-width: 1134px) and (max-width: 1199px) {
+  .ulArticle {
+    display: grid;
+    place-items: center;
+    grid-gap:20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+  }
+  .imageTeam {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
+  }
+  
+}
 @media (max-width: 899px) {
   .clientblock{
     margin: 15px 43px;
